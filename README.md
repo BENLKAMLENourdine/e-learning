@@ -13,9 +13,13 @@ A restfull API for a simple e-learning platform with CRUD Endpoints for categori
 
 ## How to use
 
-Install the project's dependencies by running `composer install` in your terminal
-create and modify the .env file 
-``APP_ENV=local
+Install the project's dependencies by running `composer install` in your terminal.
+
+create and modify the .env file.
+
+```
+APP_NAME=Laravel
+APP_ENV=local
 APP_KEY=base64:X64ST92vnBHp3Wb4tufvubViAbja355QyPw4uUOcerQ=
 APP_DEBUG=true
 APP_URL=http://localhost:8000
@@ -27,12 +31,18 @@ DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=devinweb
 DB_USERNAME=root
-DB_PASSWORD=``
-you should create a database using PHPMYAMIN with the same name montionned in the .env file
-generate the key with `php artisan key:generate`
-create the database tables by running `php artisan migrate`
-seed the data with `php artisan db:seed`
-and finally run the server `php artisan serve`
+DB_PASSWORD=
+```
+
+you should create a database using PHPMYAMIN with the same name montionned in the .env file.
+
+generate the key with `php artisan key:generate`.
+
+create the database tables by running `php artisan migrate`.
+
+seed the data with `php artisan db:seed`.
+
+and finally run the server `php artisan serve`.
 
 
 
